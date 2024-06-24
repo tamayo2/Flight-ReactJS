@@ -6,19 +6,26 @@ import { AiOutlineGlobal } from "react-icons/ai";
 const Navbar = () => {
     return (
         <div className='navBar flex'>
+
             <div className="navBarOne flex">
                 <div>
-                <SiConsul />
+                <SiConsul className="icon"/>
                 </div>
 
                 <div className="none flex">
-                    <li className="flex"> <BsPhoneVibrateFill />Support</li>
-                    <li className="flex"><AiOutlineGlobal />Languages</li>
+                    <li className="flex"> <BsPhoneVibrateFill className="icon"/>Support</li>
+                    <li className="flex"><AiOutlineGlobal className="icon"/>Languages</li>
                 </div>
 
                 <div className="atb flex">
                     <span>Sign in</span>
                     <span>Sign Out</span>
+                </div>
+            </div>
+
+            <div className="navBartTwo">
+                <div className="logoDiv">
+                    <img src="" alt="" />
                 </div>
             </div>
         </div>
