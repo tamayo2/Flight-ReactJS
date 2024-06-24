@@ -24,3 +24,85 @@
     --boxShadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     --transition: .4s ease-in-out;
 }
+
+body {
+    background: var(--whiteColor);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .7rem 1.5rem;
+    background: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: var(--whiteColor);
+
+    a{
+        color: var(--whiteColor);
+        font-weight: 500;
+    }
+
+    &:hover{
+        background: var(--HoverColor);
+    }
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+input {
+    font-size: 100%;
+    color: var(--greyText);
+}
+
+p{
+    font-size: 13px;
+    color: var(--greyText);
+    line-height: 22px;
+}
+
+h4{
+    padding: 1rem 0;
+    font-weight: 700;
+    color: var(--blackColor);
+}
