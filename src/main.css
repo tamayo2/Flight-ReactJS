@@ -108,4 +108,11 @@ h2 {
   font-size: 25px;
   padding: 1rem 0;
   color: var(--blackColor);
+}
+
+.navBar {
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1000;
 }/*# sourceMappingURL=main.css.map */
