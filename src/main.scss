@@ -119,7 +119,7 @@ h2{
     width: 100%;
     z-index: 1000;
 
-    .navBarOne, .navBartTwo{
+    .navBarOne, .navBarTwo{
         justify-content: space-between;
         padding: 1rem;
         width: 100%;
@@ -172,8 +172,53 @@ h2{
                 top: 5rem;
                 right: -50%;
                 width: 80%;
-                transform: translateY(50%);
+                transform: translateX(50%);
+                z-index: 2000;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+                border: 3px solid var(--whiteColor);
+                transition: .4s ease-in-out;
+
+                .menu{
+                    flex-direction: column;
+                    gap: .5rem;
+                    text-align: center;
+
+                    .listItem{
+                        padding: .5rem 0;
+                        cursor: pointer;
+                        color: var(--blackColor);
+
+                        &:hover{
+                            color: var(--PrimaryColor);
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .btnOne{
+                    display: block;
+                    justify-content: center;
+                    margin: auto;
+                    margin-top: 1rem;
+                }
             }
-        }     
+
+            .btnTwo{
+                display: none;
+            }
+        } 
+        
+        .toggleIcon{
+            .icon{
+                font-size: 30px;
+                color: var(--blackColor);
+                padding: 10;
+            }
+        }
+
+        .showNavBar{
+            right: 50%;
+        }
     }
 }
+

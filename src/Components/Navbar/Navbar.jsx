@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
+
 import { BsPhoneVibrateFill } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
@@ -6,10 +7,17 @@ import logo from "../../assets/logo.png";
 import { SiConsul } from "react-icons/si";
 
 const Navbar = () => {
+
+    const [active, setActive] = useState('navBarMenu')
+    const showNavBar = () => {
+        setActive('navBarMenu')
+    }
+
+
     return (
         <div className='navBar flex'>
 
-            <div className='navBarOne flex'>
+            <div className="navBarOne flex">
                 <div>
                 <SiConsul className="icon"/>
                 </div>
@@ -25,13 +33,13 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="navBartTwo flex">
+            <div className="navBarTwo flex">
 
                 <div className="logoDiv">
                     <img src={logo} className="logo"/>
                 </div>
 
-                <div className="navBarMenu">
+                <div className={active}>
                     <ul className="menu flex">
                         <li className="listItem">Home</li>
                         <li className="listItem">About</li>
@@ -45,17 +53,16 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* <button className="btn flex btnTwo">
+                <button className="btn flex btnTwo">
                     Contact
-                </button> */}
+                </button>
 
-                <div className="toggleIcon">
-                <CgMenuGridO />
+                <div onClick={showNavBar} className="toggleIcon">
+                <CgMenuGridO className="icon"/>
                 </div>
 
             </div>
         </div>
-
     )
 }
 
