@@ -1,21 +1,21 @@
 import React from "react";
-import { SiConsul } from "react-icons/si";
 import { BsPhoneVibrateFill } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
 import logo from "../../assets/logo.png";
+import { SiConsul } from "react-icons/si";
 
 const Navbar = () => {
     return (
         <div className='navBar flex'>
 
-            <div className="navBarOne flex">
+            <div className='navBarOne flex'>
                 <div>
                 <SiConsul className="icon"/>
                 </div>
 
                 <div className="none flex">
-                    <li className="flex"> <BsPhoneVibrateFill className="icon"/>Support</li>
+                    <li className="flex"><BsPhoneVibrateFill className="icon"/>Support</li>
                     <li className="flex"><AiOutlineGlobal className="icon"/>Languages</li>
                 </div>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="navBartTwo flex">
 
                 <div className="logoDiv">
-                    <img src={logo} />
+                    <img src={logo} className="logo"/>
                 </div>
 
                 <div className="navBarMenu">

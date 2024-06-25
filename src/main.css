@@ -116,7 +116,7 @@ h2 {
   width: 100%;
   z-index: 1000;
 }
-.navBar .navBarOne .navBarTwo {
+.navBar .navBarOne, .navBar .navBartTwo {
   justify-content: space-between;
   padding: 1rem;
   width: 100%;
