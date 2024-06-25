@@ -2,7 +2,7 @@ import React from "react";
 
 const Travelers = () => {
     return (
-        <div>Travelers</div>
+        <div></div>
     )
 }
 

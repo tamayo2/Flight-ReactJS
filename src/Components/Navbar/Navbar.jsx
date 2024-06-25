@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="navBartTwo">
+            <div className="navBartTwo flex">
 
                 <div className="logoDiv">
                     <img src={Logo} />

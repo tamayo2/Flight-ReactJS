@@ -115,4 +115,27 @@ h2 {
   flex-direction: column;
   width: 100%;
   z-index: 1000;
+}
+.navBar .navBarOne .navBarTwo {
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+.navBar .navBarOne {
+  background: var(--SecondaryColor);
+}
+.navBar .navBarOne .icon:hover {
+  color: var(--PrimaryColor);
+}
+.navBar .navBarOne .atb {
+  gap: 1rem;
+}
+.navBar .navBarOne .atb span {
+  color: var(--blackColor);
+  font-size: 13px;
+  cursor: pointer;
+}
+.navBar .navBarOne .atb span:hover {
+  color: var(--PrimaryColor);
+  font-size: 700;
 }/*# sourceMappingURL=main.css.map */
