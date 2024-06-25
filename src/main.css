@@ -138,4 +138,28 @@ h2 {
 .navBar .navBarOne .atb span:hover {
   color: var(--PrimaryColor);
   font-size: 700;
+}
+.navBar .navBarTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 3rem;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.navBar .navBarTwo .logoDiv .logo {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .navBar .navBarTwo .navBarMenu {
+    position: absolute;
+    background: var(--SecondaryColor);
+    padding: 1.5rem;
+    border-radius: 10px;
+    top: 5rem;
+    right: -50%;
+    width: 80%;
+    transform: translateY(50%);
+  }
 }/*# sourceMappingURL=main.css.map */

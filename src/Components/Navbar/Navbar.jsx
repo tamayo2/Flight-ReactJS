@@ -3,7 +3,7 @@ import { SiConsul } from "react-icons/si";
 import { BsPhoneVibrateFill } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
-import Logo from "../../assets/Logo.png";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
     return (
@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="navBartTwo flex">
 
                 <div className="logoDiv">
-                    <img src={Logo} />
+                    <img src={logo} />
                 </div>
 
                 <div className="navBarMenu">
