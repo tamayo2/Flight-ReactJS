@@ -1,4 +1,5 @@
 import React from "react";
+import video from "../../Assets/video.mp4";
 
 const Home = () => {
     return (
@@ -13,8 +14,9 @@ const Home = () => {
                 <div className="videoDiv">
                     <video src="" className="video"></video>
                 </div>
-            </div>
 
+                <img src="" className="plane" />
+            </div>
         </div>
     )
 }
