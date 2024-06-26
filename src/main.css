@@ -197,4 +197,5 @@ h2 {
 }
 .navBar .navBarTwo .showNavBar {
   right: 50%;
+  transition: 0.5s ease-in-out;
 }/*# sourceMappingURL=main.css.map */

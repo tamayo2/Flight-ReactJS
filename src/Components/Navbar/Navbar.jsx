@@ -10,6 +10,10 @@ const Navbar = () => {
 
     const [active, setActive] = useState('navBarMenu')
     const showNavBar = () => {
+        setActive('navBarMenu showNavBar')
+    }
+
+    const removeNavBar = () => {
         setActive('navBarMenu')
     }
 
@@ -41,14 +45,14 @@ const Navbar = () => {
 
                 <div className={active}>
                     <ul className="menu flex">
-                        <li className="listItem">Home</li>
-                        <li className="listItem">About</li>
-                        <li className="listItem">Offers</li>
-                        <li className="listItem">Seats</li>
-                        <li className="listItem">Destinations</li>
+                        <li onClick={removeNavBar} className="listItem">Home</li>
+                        <li onClick={removeNavBar} className="listItem">About</li>
+                        <li onClick={removeNavBar} className="listItem">Offers</li>
+                        <li onClick={removeNavBar} className="listItem">Seats</li>
+                        <li onClick={removeNavBar} className="listItem">Destinations</li>
                     </ul>
 
-                    <button className="btn flex btnOne">
+                    <button onClick={removeNavBar} className="btn flex btnOne">
                         Contact
                     </button>
                 </div>
