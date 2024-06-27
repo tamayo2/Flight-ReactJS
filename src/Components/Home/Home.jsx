@@ -1,5 +1,6 @@
 import React from "react";
-import video from "../../Assets/video.mp4";
+import video from "../../assets/video.mp4";
+import aeroplane from "../../assets/takeOff.png";
 
 const Home = () => {
     return (
@@ -12,10 +13,10 @@ const Home = () => {
             <div className="homeImages flex">
 
                 <div className="videoDiv">
-                    <video src="" className="video"></video>
+                    <video src={video} autoPlay muted loop className="video"></video>
                 </div>
 
-                <img src="" className="plane" />
+                <img src={aeroplane} className="plane" />
             </div>
         </div>
     )
