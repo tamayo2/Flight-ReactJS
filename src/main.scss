@@ -221,6 +221,12 @@ h2{
             transition: .5s ease-in-out;
         }
     }
+
+    .navbar_With_Bg{
+        background: var(--SecondaryColor);
+        padding: .5rem 1rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
 }
 
 .home {
@@ -255,6 +261,88 @@ h2{
             position: absolute;
             width: 100%;
             top: -10%;
+        }
+    }
+}
+
+.search{
+    .sectionContainer{
+        width: 100%;
+        padding: 1.5rem;
+        border: 2px solid var(--greyBg);
+        border-radius: 16px;
+        row-gap: 2rem;
+
+        .btns{
+            background: var(--SecondaryColor);
+            padding: .5rem;
+            border-radius: 1rem;
+            flex-direction: column;
+            width: 100%;
+            margin: auto;
+
+            .singleBtn{
+                padding: .8rem 1.5rem;
+                font-size: 13px;
+                border-radius: 3rem;
+                width: 80%;
+                text-align: center;
+
+                &:hover{
+                    background: var(--PrimaryColor);
+                    color: var(--whiteColor);
+                    font-weight: 500;
+                    transition: .4s ease;
+                }
+            }
+
+            .active{
+                background: var(--PrimaryColor);
+                color: var(--whiteColor);
+                font-weight: 500;
+            }
+        }
+
+        .searchInputs{
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .singleInput{
+                .iconDiv{
+                    padding: 16px 10px;
+                    border-radius: 3rem;
+                    background: var(--SecondaryColor);
+                    margin-right: 1rem;
+
+                    .icon{
+                        color: var(--blackColor);
+                        opacity: .7;
+                    }
+                }
+
+                .texts{
+                    h4{
+                        padding-top: 0;
+                        padding-bottom: .7rem;
+                        color: var(--blackColor);
+                        font-weight: 700;
+                    }
+
+                    input{
+                        width: 95%;
+                        border: none;
+                        outline: none;
+                        background: transparent;
+
+                        &::placeholder{
+                            font-size: 12px;
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
         }
     }
 }
