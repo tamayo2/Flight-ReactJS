@@ -305,4 +305,12 @@ h2 {
 .search .sectionContainer .searchInputs .singleInput .texts input::placeholder {
   font-size: 12px;
   opacity: 0.5;
+}
+
+.support .sectionContainer .tittlesDiv {
+  text-align: center;
+}
+.support .sectionContainer .tittlesDiv small {
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
