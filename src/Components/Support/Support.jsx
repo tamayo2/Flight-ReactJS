@@ -22,13 +22,13 @@ const Support = () => {
                         </div>
 
                         <div className="singleInfo">
-                            <span className="number">02</span>
+                            <span className="number colorOne">02</span>
                             <h4>Travel requirements for dubai</h4>
                             <p>Find out what you need to know before you travel to Dubai</p>
                         </div>
 
                         <div className="singleInfo">
-                            <span className="number">03</span>
+                            <span className="number colorTwo">03</span>
                             <h4>Travel requirements for dubai</h4>
                             <p>Find out what you need to know before you travel to Dubai</p>
                         </div>
