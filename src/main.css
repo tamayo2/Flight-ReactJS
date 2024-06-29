@@ -346,4 +346,8 @@ h2 {
 .support .sectionContainer .infoDiv .imgDiv img {
   width: 100%;
   max-width: 420px;
+}
+
+.info {
+  background: var(--SecondaryColor);
 }/*# sourceMappingURL=main.css.map */

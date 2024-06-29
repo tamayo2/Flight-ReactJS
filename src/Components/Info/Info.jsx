@@ -1,5 +1,7 @@
 import React from "react";
 import { RxCalendar } from "react-icons/rx";
+import { BsShieldCheck } from "react-icons/bs";
+import { BsBookmarkCheck } from "react-icons/bs";
 
 const Info = () => {
     return (
@@ -14,10 +16,29 @@ const Info = () => {
                 </div>
 
                 <div className="cardsDiv grid">
+
                     <div className="singleCard grid">
                         <div className="iconDiv flex">
-                        <RxCalendar />
+                        <RxCalendar className="icon"/>
                         </div>
+                        <span className="cardTitle">Book & relax</span>
+                        <p>you can also call airlines from your phone and book a flight ticket</p>
+                    </div>
+
+                    <div className="singleCard grid">
+                        <div className="iconDiv flex">
+                        <BsShieldCheck className="icon"/>
+                        </div>
+                        <span className="cardTitle">Smart Checklist</span>
+                        <p>you can also call airlines from your phone and book a flight ticket</p>
+                    </div>
+
+                    <div className="singleCard grid">
+                        <div className="iconDiv flex">
+                        <BsBookmarkCheck className="icon"/>
+                        </div>
+                        <span className="cardTitle">Save More</span>
+                        <p>you can also call airlines from your phone and book a flight ticket</p>
                     </div>
                 </div>
             </div>
