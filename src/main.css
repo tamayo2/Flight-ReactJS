@@ -374,4 +374,24 @@ h2 {
 }
 .info .infoContainer .cardsDiv .singleCard .iconDiv {
   justify-content: center;
+  margin: auto;
+  background: var(--PrimaryColor);
+  width: -moz-max-content;
+  width: max-content;
+  height: 55px;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.info .infoContainer .cardsDiv .singleCard .iconDiv .icon {
+  color: var(--whiteColor);
+}
+.info .infoContainer .cardsDiv .singleCard .cardTitle {
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.info .infoContainer .cardsDiv .singleCard .colorOne {
+  background: var(--ColorOne);
+}
+.info .infoContainer .cardsDiv .singleCard .colorTwo {
+  background: var(--ColorTwo);
 }/*# sourceMappingURL=main.css.map */

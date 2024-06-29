@@ -426,6 +426,28 @@ h2{
 
                 .iconDiv{
                     justify-content: center;
+                    margin: auto;
+                    background: var(--PrimaryColor);
+                    width: max-content;
+                    height: 55px;
+                    padding: 1rem;
+                    border-radius: 3rem;
+
+                    .icon{
+                        color: var(--whiteColor);
+                    }
+                }
+
+                .cardTitle{
+                    color: var(--blackColor);
+                    font-weight: 700;
+                }
+
+                .colorOne{
+                    background: var(--ColorOne);
+                }
+                .colorTwo{
+                    background: var(--ColorTwo);
                 }
             }
         }
