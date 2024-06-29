@@ -346,6 +346,7 @@ h2 {
 .support .sectionContainer .infoDiv .imgDiv img {
   width: 100%;
   max-width: 420px;
+  border-radius: 10%;
 }
 
 .info {
