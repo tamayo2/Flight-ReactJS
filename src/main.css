@@ -506,4 +506,8 @@ h2 {
 .travelers .sectionContainer .travelersContainer .singleTraveler:hover .travelerName {
   bottom: 0;
   transition: 1s ease-in-out;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler:hover .travelerImage {
+  bottom: 110px;
+  transition: 1s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
