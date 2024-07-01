@@ -474,7 +474,7 @@ h2 {
   }
 }
 .travelers .sectionContainer .travelersContainer .singleTraveler .travelerName {
-  bottom: 0;
+  bottom: -100%;
   width: 100%;
   height: -moz-max-content;
   height: max-content;
@@ -488,14 +488,22 @@ h2 {
   color: black;
   font-weight: 700;
 }
+.travelers .sectionContainer .travelersContainer .singleTraveler .travelerName p {
+  color: var(--PrimaryColor);
+  font-style: italic;
+}
 @keyframes animatedBorders {
   0% {
-    transform: translateY(0px);
+    border-radius: 0rem;
   }
   50% {
-    transform: translateY(8px);
+    border-radius: 2rem;
   }
   100% {
-    transform: translateY(0px);
+    border-radius: 0rem;
   }
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler:hover .travelerName {
+  bottom: 0;
+  transition: 1s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
