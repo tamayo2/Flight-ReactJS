@@ -456,8 +456,20 @@ h2 {
      object-fit: cover;
   border-radius: 50%;
   bottom: 30px;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
   border: 5px solid rgba(225, 225, 225, 0.637);
   transition: var(--transition);
+  animation: animated 2.3s infinite;
+}
+@keyframes animated {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }/*# sourceMappingURL=main.css.map */
