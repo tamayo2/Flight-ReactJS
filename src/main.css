@@ -472,4 +472,30 @@ h2 {
   100% {
     transform: translateY(0px);
   }
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler .travelerName {
+  bottom: 0;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background: var(--whiteColor);
+  padding: 1.5rem 1rem;
+  transition: var(--transition);
+  animation: animatedBorders 2.3s infinite;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler .travelerName span {
+  display: block;
+  color: black;
+  font-weight: 700;
+}
+@keyframes animatedBorders {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }/*# sourceMappingURL=main.css.map */
