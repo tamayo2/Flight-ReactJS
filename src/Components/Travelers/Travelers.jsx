@@ -1,6 +1,13 @@
 import React from "react";
 import newyork from "../../assets/newyork.jpg";
+import dubai from "../../assets/dubai.jpg";
+import paris from "../../assets/paris.jpg";
+import colombia from "../../assets/colombia.jpg";
+
 import traveler1 from "../../assets/traveler1.jpg";
+import traveler2 from "../../assets/traveler2.jpg";
+import traveler3 from "../../assets/traveler3.jpg";
+import traveler4 from "../../assets/traveler4.jpg";
 
 const travelers = [
     {
@@ -13,11 +20,28 @@ const travelers = [
 
     {
         id: 2,
-        destinationImage: newyork,
-        travelerImage: traveler1,
+        destinationImage: dubai,
+        travelerImage: traveler2,
+        travelerName: "John Doe",
+        socialLink: "@Juan_Tamayo21"
+    },
+
+    {
+        id: 3,
+        destinationImage: paris,
+        travelerImage: traveler3,
+        travelerName: "John Doe",
+        socialLink: "@Juan_Tamayo21"
+    },
+
+    {
+        id: 4,
+        destinationImage: colombia,
+        travelerImage: traveler4,
         travelerName: "John Doe",
         socialLink: "@Juan_Tamayo21"
     }
+
 ]
 const Travelers = () => {
     return (
