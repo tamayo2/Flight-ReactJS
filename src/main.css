@@ -346,7 +346,7 @@ h2 {
 .support .sectionContainer .infoDiv .imgDiv img {
   width: 100%;
   max-width: 420px;
-  border-radius: 10%;
+  border-radius: 10rem;
 }
 
 .info {
@@ -406,6 +406,7 @@ h2 {
 .lounge .sectionContainer .imgDiv img {
   width: 100%;
   max-width: 430px;
+  border-radius: 10rem;
 }
 .lounge .sectionContainer .textDiv .grids {
   margin-top: 1rem;
@@ -416,4 +417,47 @@ h2 {
   padding-bottom: 0.5rem;
   font-weight: 500;
   color: var(--blackColor);
+}
+
+.travelers .sectionContainer {
+  text-align: center;
+}
+.travelers .sectionContainer .travelersContainer {
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler {
+  position: relative;
+  height: 320px;
+  width: 85%;
+  max-width: 250px;
+  overflow: hidden;
+  border-radius: 10rem;
+  gap: 1rem;
+  margin: auto;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler .destinationImage, .travelers .sectionContainer .travelersContainer .singleTraveler .travelerImage, .travelers .sectionContainer .travelersContainer .singleTraveler .travelerName {
+  position: absolute;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler .destinationImage {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.travelers .sectionContainer .travelersContainer .singleTraveler .travelerImage {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid rgba(225, 225, 225, 0.637);
+  transition: var(--transition);
 }/*# sourceMappingURL=main.css.map */

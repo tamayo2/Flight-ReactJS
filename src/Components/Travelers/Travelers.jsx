@@ -1,5 +1,6 @@
 import React from "react";
 import newyork from "../../assets/newyork.jpg";
+import traveler1 from "../../assets/traveler1.jpg";
 
 const Travelers = () => {
     return (
@@ -10,10 +11,18 @@ const Travelers = () => {
                 </h2>
 
                 <div className="travelersContainer grid">
+
                     <div className="singleTraveler">
                         <img src={newyork} className="destinationImage"/>
+
                         <div className="travelerDetails">
-                            
+                            <div className="travelerPicture">
+                                <img src={traveler1} className="travelerImage"/>
+                            </div>
+                            <div className="travelerName">
+                                <span>John Doe</span>
+                                @JuanTamayo21
+                            </div>
                         </div>
                     </div>
                 </div>

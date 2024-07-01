@@ -393,7 +393,7 @@ h2{
                 img{
                     width: 100%;
                     max-width: 420px;
-                    border-radius: 10%;
+                    border-radius: 10rem;
                 }
             }
         }
@@ -464,6 +464,7 @@ h2{
             img{
                 width: 100%;
                 max-width: 430px;
+                border-radius: 10rem;
             }
         }
 
@@ -479,6 +480,54 @@ h2{
                         font-weight: 500;
                         color: var(--blackColor);
                     }
+                }
+            }
+        }
+    }
+}
+
+.travelers{
+    .sectionContainer{
+        text-align: center;
+
+        .travelersContainer{
+            margin-top: 1rem;
+            gap: 1.5rem;
+
+            .singleTraveler{
+                position: relative;
+                height: 320px;
+                width: 85%;
+                max-width: 250px;
+                overflow: hidden;
+                border-radius: 10rem;
+                gap: 1rem;
+                margin: auto;
+
+                .destinationImage, .travelerImage, .travelerName{
+                    position: absolute;
+                }
+
+                .destinationImage{
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    object-fit: cover;
+                }
+
+                .travelerImage{
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    bottom: 30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border: 5px solid rgba(225, 225, 225, 0.637);
+                    transition: var(--transition);
                 }
             }
         }
