@@ -510,4 +510,11 @@ h2 {
 .travelers .sectionContainer .travelersContainer .singleTraveler:hover .travelerImage {
   bottom: 110px;
   transition: 1s ease-in-out;
+}
+
+.subscribe {
+  background: var(--SecondaryColor);
+}
+.subscribe .sectionContainer {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
