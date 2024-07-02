@@ -52,19 +52,19 @@ const Footer = () => {
                         <a href="">FAQ</a>
                     </li>
                     <li>
-                        <a href="">Explore</a>
+                        <a href="">How To</a>
                     </li>
                     <li>
-                        <a href="">Flight Status</a>
+                        <a href="">Features</a>
                     </li>
                     <li>
-                        <a href="">Travel</a>
+                        <a href="">Baggage</a>
                     </li>
                     <li>
-                        <a href="">Check-In</a>
+                        <a href="">Route Map</a>
                     </li>
                     <li>
-                        <a href="">Manage tour booking</a>
+                        <a href="">Our Communities</a>
                     </li>
 
 
@@ -73,25 +73,23 @@ const Footer = () => {
                 <div className="footerLinks">
                     <span className="linkTitle">Information</span>
                     <li>
-                        <a href="">Home</a>
+                        <a href="">Chauffuer</a>
                     </li>
                     <li>
-                        <a href="">Explore</a>
+                        <a href="">Our Partners</a>
                     </li>
                     <li>
-                        <a href="">Flight Status</a>
+                        <a href="">Destination</a>
                     </li>
                     <li>
-                        <a href="">Travel</a>
+                        <a href="">Carrers</a>
                     </li>
                     <li>
-                        <a href="">Check-In</a>
+                        <a href="">Transportation</a>
                     </li>
                     <li>
-                        <a href="">Manage tour booking</a>
+                        <a href="">Programme Rules</a>
                     </li>
-
-
                 </div>
 
             </div>

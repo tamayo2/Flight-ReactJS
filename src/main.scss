@@ -621,3 +621,46 @@ h2{
         }
     }
 }
+
+.footer{
+    background: var(--SecondaryColor);
+
+    .sectionContainer{
+        gap: 2.5rem;
+
+        .gridOne{
+            gap: 1rem;
+            justify-content: center;
+            margin: auto;
+
+            .logoDiv{
+                .Logo{
+                    width: 20%;
+                }
+            }
+
+            .socialIcon{
+                margin-top: 1rem;
+                gap: 1rem;
+
+                .icon{
+                    height: 50px;
+                    width: 30px;
+                    border-radius: 10rem;
+                    border: 1px solid var(--borderColor);
+                    box-shadow: var(--boxShadow);
+                    padding: .4rem;
+                    color: var(--greyText);
+
+                    &:hover{
+                        background: var(--PrimaryColor);
+                        transform: translateY(-7px);
+                        transition: var(--transition);
+                        border: 1px solid var(--PrimaryColor);
+                        color: var(--whiteColor);
+                    }
+                }
+            }
+        }
+    }
+}
