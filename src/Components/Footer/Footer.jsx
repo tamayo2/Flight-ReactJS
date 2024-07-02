@@ -94,6 +94,10 @@ const Footer = () => {
 
             </div>
 
+            <div className="copyRightDiv flex">
+                <p>Courtesy Design | Developed by <a href="mailto:sebastiantamacuadrado2005@gmail.com" target="_blank">Juan Tamayo</a></p>
+            </div>
+
         </div>
     )
 }

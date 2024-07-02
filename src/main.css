@@ -571,4 +571,18 @@ h2 {
   transition: var(--transition);
   border: 1px solid var(--PrimaryColor);
   color: var(--whiteColor);
+}
+.footer .sectionContainer .footerLinks {
+  display: grid;
+}
+.footer .sectionContainer .footerLinks .linkTitle {
+  color: var(--blackColor);
+  font-weight: 500;
+  display: block;
+  padding-bottom: 1rem;
+}
+.footer .sectionContainer .footerLinks li a {
+  display: block;
+  color: var(--greyText);
+  transition: var(--transition);
 }/*# sourceMappingURL=main.css.map */

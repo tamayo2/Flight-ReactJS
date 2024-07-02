@@ -662,5 +662,22 @@ h2{
                 }
             }
         }
+
+        .footerLinks{
+            display: grid;
+
+            .linkTitle{
+                color: var(--blackColor);
+                font-weight: 500;
+                display: block;
+                padding-bottom: 1rem;
+            }
+
+            li a{
+                display: block;
+                color: var(--greyText);
+                transition: var(--transition);
+            }
+        }
     }
 }
