@@ -640,4 +640,36 @@ h2 {
     width: 95%;
     top: -8%;
   }
+  .search .sectionContainer .btns {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .support .sectionContainer .infoDiv .textDiv {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .info .infoContainer .titleDiv {
+    flex-direction: row;
+  }
+  .info .infoContainer .titleDiv h2 {
+    text-align: left;
+    max-width: 500px;
+  }
+  .info .infoContainer .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lounge .sectionContainer .textDiv .grids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subscribe .sectionContainer .inputDiv {
+    justify-content: space-between;
+  }
+  .subscribe .sectionContainer .inputDiv .btn {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .footer .sectionContainer {
+    padding-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */

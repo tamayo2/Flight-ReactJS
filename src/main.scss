@@ -762,4 +762,69 @@ h2{
             }
         }
     }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+        }
+    }
+
+    .support{
+        .sectionContainer{
+            .infoDiv{
+                .textDiv{
+                    margin-top: 2rem;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+
+    .info{
+        .infoContainer{
+            .titleDiv{
+                flex-direction: row;
+                h2{
+                    text-align: left;
+                    max-width: 500px;
+                }
+            }
+
+            .cardsDiv{
+                grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+    }
+
+    .lounge{
+        .sectionContainer{
+            .textDiv{
+                .grids{
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+
+    .subscribe{
+        .sectionContainer{
+            .inputDiv{
+                justify-content: space-between;
+
+                .btn{
+                    max-width: max-content;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .sectionContainer{
+            padding-top: 2rem;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
 }
