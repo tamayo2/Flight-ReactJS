@@ -828,3 +828,171 @@ h2{
         }
     }
 }
+
+@media screen and (min-width: 680px) {
+    .home{
+        .mainText{
+            width: 80%;
+        }
+
+        .homeImages{
+            .videoDiv{
+                width: 80%;
+                .video{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 15rem;
+                }
+            }
+
+            .plane{
+                width: 95%;
+                top: -8%;
+            }
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .btn{
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    .footer{
+        .sectionContainer{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navBar{
+        align-items: center;
+        .navBarOne{
+            .none{
+                display: flex;
+                gap: 1.5rem;
+
+                li{
+                    font-size: 13px;
+                    gap: .5rem;
+                    color: var(--textColor);
+                    &:hover{
+                        color: var(--PrimaryColor);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .navBarTwo{
+            justify-content: space-between;
+            align-items: center;
+
+            .logoDiv{
+                .Logo{
+                    max-width: 20%;
+                }
+            }
+
+            .menu{
+                flex-direction: row;
+                gap: .5rem;
+
+                .listItem{
+                    padding: 0 .5rem;
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: var(--textColor);
+                    font-weight: 700;
+
+                    &:hover{
+                        color: var(--PrimaryColor);
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .btnOne, .toggleIcon{
+                display: none;
+            }
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                width: 70%;
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs{
+                grid-template-columns: repeat(4, 1fr);
+
+                .singleInput{
+                    .texts{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .support{
+       .sectionContainer{
+            .infoDiv{
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                margin-top: 5rem;
+                .textDiv{
+                    margin-top: 0rem;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+        }
+    } 
+
+    .info{
+        .infoContainer{
+            padding: 0 6rem;
+            .titleDiv{
+                width: 90%;
+                margin: auto;
+                align-items: center;
+            }
+
+            .cardsDiv{
+                grid-template-columns: repeat(3, 1fr);
+
+                .singleCard{
+                    max-width: 260px;
+                    padding: 3rem 1rem;
+                }
+            }
+        }
+    }
+
+    .lounge{
+        .sectionContainer{
+            grid-template-columns: repeat(2, 1fr);
+            .textDiv{
+                grid-area: 1;
+                .grids{
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px){
+    
+}

@@ -672,4 +672,118 @@ h2 {
     padding-top: 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
+}
+@media screen and (min-width: 680px) {
+  .home .mainText {
+    width: 80%;
+  }
+  .home .homeImages .videoDiv {
+    width: 80%;
+  }
+  .home .homeImages .videoDiv .video {
+    height: 100%;
+    width: 100%;
+    border-radius: 15rem;
+  }
+  .home .homeImages .plane {
+    width: 95%;
+    top: -8%;
+  }
+  .search .sectionContainer .btn {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .sectionContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .navBar {
+    align-items: center;
+  }
+  .navBar .navBarOne .none {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .navBar .navBarOne .none li {
+    font-size: 13px;
+    gap: 0.5rem;
+    color: var(--textColor);
+  }
+  .navBar .navBarOne .none li:hover {
+    color: var(--PrimaryColor);
+    text-decoration: underline;
+  }
+  .navBar .navBarTwo {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navBar .navBarTwo .logoDiv .Logo {
+    max-width: 20%;
+  }
+  .navBar .navBarTwo .menu {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .navBar .navBarTwo .menu .listItem {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--textColor);
+    font-weight: 700;
+  }
+  .navBar .navBarTwo .menu .listItem:hover {
+    color: var(--PrimaryColor);
+    font-weight: 700;
+  }
+  .navBar .navBarTwo .btnOne, .navBar .navBarTwo .toggleIcon {
+    display: none;
+  }
+  .search .sectionContainer .btns {
+    width: 70%;
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .search .sectionContainer .searchInputs .singleInput .texts input {
+    width: 100%;
+  }
+  .support .sectionContainer .infoDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  .support .sectionContainer .infoDiv .textDiv {
+    margin-top: 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info .infoContainer {
+    padding: 0 6rem;
+  }
+  .info .infoContainer .titleDiv {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  .info .infoContainer .cardsDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .info .infoContainer .cardsDiv .singleCard {
+    max-width: 260px;
+    padding: 3rem 1rem;
+  }
+  .lounge .sectionContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lounge .sectionContainer .textDiv {
+    grid-area: 1;
+  }
+  .lounge .sectionContainer .textDiv .grids {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
