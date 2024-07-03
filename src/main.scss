@@ -1061,5 +1061,92 @@ h2{
             font-size: 25px;
             line-height: 4rem;
         }
+
+        .homeImages{
+            .videoDiv{
+                width: 90%;
+                height: 300px;
+
+                .video{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 15rem;
+                }
+            }
+
+            .plane{
+                width: 100%;
+                top: -40%;
+            }
+        }
     }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1106px){
+    .subscribe{
+        .sectionContainer{
+            max-width: 60%;
+        }
+    }
+}
+
+@media screen and (min-width: 1332px){
+    .navBar{
+        .navBarTwo{
+            .menu{
+                gap: 1rem;
+
+                .listItem{
+                    padding: 0 1rem;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .support{
+        .sectionContainer{
+            .infoDiv{
+                gap: 1rem;
+
+                .textDiv{
+                    .singleInfo{
+                        p{
+                            max-width: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .subscribe{
+        .sectionContainer{
+            max-width: 50%;
+        }
+    }
+}
+
+::selection{
+    background: var(--PrimaryColor);
+    color: var(--whiteColor);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--greyBg);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--PrimaryColor);
+    border-radius: 10px;
 }

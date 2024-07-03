@@ -834,4 +834,63 @@ h2 {
     font-size: 25px;
     line-height: 4rem;
   }
+  .home .homeImages .videoDiv {
+    width: 90%;
+    height: 300px;
+  }
+  .home .homeImages .videoDiv .video {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 15rem;
+  }
+  .home .homeImages .plane {
+    width: 100%;
+    top: -40%;
+  }
+  .search .sectionContainer .btns {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1106px) {
+  .subscribe .sectionContainer {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .navBar .navBarTwo .menu {
+    gap: 1rem;
+  }
+  .navBar .navBarTwo .menu .listItem {
+    padding: 0 1rem;
+    font-size: 14px;
+  }
+  .support .sectionContainer .infoDiv {
+    gap: 1rem;
+  }
+  .support .sectionContainer .infoDiv .textDiv .singleInfo p {
+    max-width: 500;
+  }
+  .subscribe .sectionContainer {
+    max-width: 50%;
+  }
+}
+::-moz-selection {
+  background: var(--PrimaryColor);
+  color: var(--whiteColor);
+}
+::selection {
+  background: var(--PrimaryColor);
+  color: var(--whiteColor);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--greyBg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--PrimaryColor);
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
