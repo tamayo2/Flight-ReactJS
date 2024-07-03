@@ -994,5 +994,72 @@ h2{
 }
 
 @media screen and (min-width: 960px){
+    .home{
+        padding-top: 13rem;
+        .mainText{
+            width: 70%;
+            padding-bottom: 1.5rem;
+            font-size: 22px;
+            line-height: 4rem;
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .searchInputs{
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+    }
+
+    .travelers{
+        .sectionContainer{
+            .travelersContainer{
+                grid-template-columns: repeat(4, 1fr);
+                margin: 3rem 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    p{
+        font-size: 15px;
+        line-height: 25px;
+    }
     
+    h4{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 27px;
+    }
+
+    .section {
+        padding: 6rem 0 4rem;
+    }
+    
+    .container {
+        width: 75%;
+        margin: auto;
+    }
+
+    .navBar{
+        .navBarOne, .navBarTwo{
+            padding: 1.5rem 5rem;
+        }
+
+        .navbar_With_Bg{
+            padding: 0 5rem;
+        }
+    }
+
+    .home{
+        .mainText{
+            width: 60%;
+            font-size: 25px;
+            line-height: 4rem;
+        }
+    }
 }
